@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins',sans-serif;
+  color: #222;
+}
+.navbar{
+  padding: .8rem;
+}
+.navbar-nav li{
+  padding-right:20px;
+}
+.nav-link{
+  font-size: 1.5rem !important;
+  color: #2b2924;
+}
+li.nav-item.active::marker{
+  color: white;
+}
+.navbar2 {
+  padding: 1.0rem;
+  background-color: #2b2924 !important;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
+} 
+.nav-item{
+  padding: 10px;
+  font-size: 125%;
+}
+.nav-link2{
+  text-align: left !important;
+  color:#f2f2f2 !important;
+}
+.col-12{
+  margin-left:0px;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.lead2{
+  font-size: 150%;
+}
+.welcome{
+  width:75%;
+  margin:0 auto;
+  padding-top: 2rem;
+}
+
+.welcome hr{
+  border-top: 2px solid #b4b4b4;
+  width:95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+  font-family: Raleway;
+}
+
+.col-md-4{
+  text-align: center;
+}
+.padding{
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.eol-lg-6{
+  background-image: linear-gradient(rgba(243,239,239,0.700),rgba(243,239,239,0.700)),url("image/bg2.png");
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.eol-lg-6 h1{
+  font-size: 50;
+}
+
+
+.col-md-4{
+  text-align: center;
+}
+.padding{
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+footer{
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width:75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+footer a{
+  color: #d5d5d5;
+}
+
+.eol-lg-6 p{
+  font-size: 30;
+}
